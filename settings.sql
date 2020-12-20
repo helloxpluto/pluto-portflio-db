@@ -1,0 +1,3 @@
+CREATE DATABASE pluto;
+CREATE USER plutouser WITH PASSWORD 'pluto';
+GRANT ALL PRIVILEGES ON DATABASE pluto TO plutouser;
